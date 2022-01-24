@@ -20,3 +20,47 @@ if(isTaskComplete) {
     console.log("Task incompleted");
 }
 
+// switch statement
+
+const food = "apple";
+
+switch(food) {
+    case 'apple':
+        console.log("this is an apple");
+        break;
+    case 'mango':
+        console.log('this is mango');
+        break;
+    case 'banana':
+        console.log("this is banana");
+        break;
+    default:
+        console.log('Enjoy your meal');
+}
+
+
+// Arow function in ES6
+const func = ()=> {
+    console.log('Arrow function is called');
+}
+func();
+
+const pramFunc = (a, b) => {
+    console.log("Arroe function with pram is called");
+    console.log('Params are, '+a+' and, '+b);
+}
+
+pramFunc("imam", 94);
+
+
+
+
+
+
+
+
+
+
+
+
+
