@@ -53,7 +53,18 @@ const pramFunc = (a, b) => {
 pramFunc("imam", 94);
 
 
+// Js function and Anonymous function
+ 
+function normalFunc() {
+    console.log("Normal function");
+}
 
+const anonymousFunc = function() {
+    console.log("Anonymous function");
+}
+
+normalFunc();
+anonymousFunc();
 
 
 
